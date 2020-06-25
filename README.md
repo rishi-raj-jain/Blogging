@@ -12,7 +12,7 @@ Some of the benefits of using Blogging template:
 - Show the first page quickly with a first-contentful paint (FCP)
 
 ## Requirements
-- Angular 9
+- NPM (Node Package Manager)
 
 ## Installing
 
