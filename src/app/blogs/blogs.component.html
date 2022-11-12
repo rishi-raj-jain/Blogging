@@ -1,25 +1,24 @@
 <div class="container">
-    <div class="row">
-        <div class="col-12 col-md-8 mt-5">
-            <div class="w-100 h-100 border" style='background-image: url("https://cdn-images-1.medium.com/max/1050/1*n0NH4YppjJVqZ-ksDuJuMg.png"); background-position: 50% 50% !important;'></div>
-        </div>
-        <div class="col-12 col-md-4 p-5">
-            <h4 class="text-dark font-weight-bold">
-                Leveraging Angular Prereleases to keep Ionic in Sync
-            </h4>
-            <p class="text-secondary font-weight-bold">
-                Unlike other open source projects, Angular tries to bring a new major release at least twice a year. With each new release, Angular stands…
-            </p>
-        </div>
+  <div class="row">
+    <div class="col-12 col-md-8 mt-5">
+      <div
+        class="w-100 h-100 border"
+        style="
+          background-image: url('https://cdn-images-1.medium.com/max/1050/1*n0NH4YppjJVqZ-ksDuJuMg.png');
+          background-position: 50% 50% !important;
+        "
+      ></div>
     </div>
-    <div *ngIf='blogs' class="row">
-        <div *ngFor='let blog of blogs' class="col-12 col-sm-6 col-md-4 mt-5">
-            <app-blog
-                title={{blog?.title}}
-                thumbnail={{blog?.thumbnail}}
-                link='/blogs/{{blog?.title}}'
-                content={{blog?.content}}
-            ></app-blog>
-        </div>
+    <div class="col-12 col-md-4 p-5">
+      <h4 class="text-dark font-weight-bold">Leveraging Angular Prereleases to keep Ionic in Sync</h4>
+      <p class="text-secondary font-weight-bold">
+        Unlike other open source projects, Angular tries to bring a new major release at least twice a year. With each new release, Angular stands…
+      </p>
     </div>
+  </div>
+  <div *ngIf="blogs" class="row">
+    <div *ngFor="let blog of blogs" class="col-12 col-sm-6 col-md-4 mt-5">
+      <app-blog title="{{ blog?.title }}" thumbnail="{{ blog?.thumbnail }}" link="/blogs/{{ blog?.title }}" content="{{ blog?.content }}"></app-blog>
+    </div>
+  </div>
 </div>

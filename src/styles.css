@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-*{
-    font-family: 'Roboto' !important;
-    font-weight: 400 !important;
-    color: #F5FFFF !important;
+* {
+  font-family: 'Roboto' !important;
+  font-weight: 400 !important;
+  color: #f5ffff !important;
 }
-.bg-primary{
-    background-color: #1976d2 !important;
+.bg-primary {
+  background-color: #1976d2 !important;
 }
