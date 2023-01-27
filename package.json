@@ -38,7 +38,7 @@
     "@angular/cli": "latest",
     "@angular/compiler-cli": "latest",
     "@edgio/angular": "^5.0.4",
-    "@edgio/cli": "^5.0.4",
+    "@edgio/cli": "^5.1.2",
     "@edgio/core": "^5.0.4",
     "@edgio/devtools": "^5.0.4",
     "@edgio/prefetch": "^5.0.4",
